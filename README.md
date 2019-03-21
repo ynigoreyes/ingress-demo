@@ -28,20 +28,20 @@ $ gcloud container cluster create
 ```
 
 3. Create services with TCP endpoints
-  - TIP: You want `*/` to return a 200 status code. Otherwise, your health checks will not work
-  - You want to make nested and unique routes. Example...
-    - Service A: has an endpoint at `/` and one on `/client/info`
-    - Service B: has an endpoint at `/` and one on `/api/info`
-    - This is so that the ingress can differentiate more easily where to route your requests
+    - TIP: You want `*/` to return a 200 status code. Otherwise, your health checks will not work
+    - You want to make nested and unique routes. Example...
+        - Service A: has an endpoint at `/` and one on `/client/info`
+        - Service B: has an endpoint at `/` and one on `/api/info`
+        - This is so that the ingress can differentiate more easily where to route your requests
 
 4. Use a `Makefile` to build and push your code. Checkout my example
 
 5. Create the Deployments and Services for your apps
-  - TIP: `<SERVICE_NAME>_SERVICE_PORT` is passed to your deployment from `spec.selector` attributes
-  - TIP: In Deployments, you can open up ports in your containers using `spec.template.containers.ports.containerPort`
-  - Make sure that you app uses the environment variables above so that you can open any port given to you
+    - TIP: `<SERVICE_NAME>_SERVICE_PORT` is passed to your deployment from `spec.selector` attributes
+    - TIP: In Deployments, you can open up ports in your containers using `spec.template.containers.ports.containerPort`
+    - Make sure that you app uses the environment variables above so that you can open any port given to you
 
 6. Pay attention to the Ingress routes...
-  - The ingress routes do not take away anything from the endpoint. Do not treat the ingress as a parent router.
-  - An ingress works like a reverse-proxy (usually is one). it looks at the endpoint and then passes it on the matching service
-  - This is why nested routes will make it easy to differentiate what route should go where
+    - The ingress routes do not take away anything from the endpoint. Do not treat the ingress as a parent router.
+    - An ingress works like a reverse-proxy (usually is one). it looks at the endpoint and then passes it on the matching service
+    - This is why nested routes will make it easy to differentiate what route should go where
