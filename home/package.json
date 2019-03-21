@@ -1,11 +1,11 @@
 {
-  "name": "svc1",
+  "name": "home",
   "version": "1.0.0",
   "description": "home page",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -- -p $SVC1_SERVICE_PORT"
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC",

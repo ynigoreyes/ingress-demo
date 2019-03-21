@@ -6,11 +6,11 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
+      - path: /h/home/*
         backend:
-          serviceName: svc1
+          serviceName: home
           servicePort: 8080
-      - path: /about
+      - path: /a/about/*
         backend:
-          serviceName: svc2
+          serviceName: about
           servicePort: 8081

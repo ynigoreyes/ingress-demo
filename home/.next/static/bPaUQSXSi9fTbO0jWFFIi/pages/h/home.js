@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{Eo2W:function(n,o,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/h/home",function(){var n=e("PP/R");return{page:n.default||n}}])},"PP/R":function(n,o,e){"use strict";e.r(o),o.default=function(){return"Home Page!"}}},[["Eo2W",0]]]);

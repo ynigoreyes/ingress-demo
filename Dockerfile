@@ -14,6 +14,9 @@ RUN cd /tmp && yarn
 RUN mkdir -p /opt/app && cp -a /tmp/node_modules /opt/app/
 
 COPY $svc_name/pages /usr/src/app/pages
+COPY $svc_name/server.js /usr/src/app/
+
+RUN yarn build
 
 # Running the app
-CMD [ "yarn", "start" ]
+CMD ["yarn", "start"]

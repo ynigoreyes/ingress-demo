@@ -1,0 +1,49 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/home.js": 0,
+      "multi next/dist/pages/_app": 1,
+      "multi next/dist/pages/_error": 2,
+      "multi next/dist/pages/_document": 3,
+      "multi private-next-pages/index.js": 4,
+      "multi private-next-pages/h/home.js": 0
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/IBIFMjNc30ej1kW_PZ1d4/pages/_app.js": 0,
+      "static/IBIFMjNc30ej1kW_PZ1d4/pages/_document.js": 1,
+      "static/IBIFMjNc30ej1kW_PZ1d4/pages/_error.js": 2,
+      "static/IBIFMjNc30ej1kW_PZ1d4/pages/home.js": 3,
+      "static/X3qEONsbhk2Ol_1g4GXT3/pages/_app.js": 4,
+      "static/X3qEONsbhk2Ol_1g4GXT3/pages/_document.js": 5,
+      "static/X3qEONsbhk2Ol_1g4GXT3/pages/_error.js": 6,
+      "static/X3qEONsbhk2Ol_1g4GXT3/pages/home.js": 7,
+      "static/X3qEONsbhk2Ol_1g4GXT3/pages/index.js": 8,
+      "static/WrDWQgqvIQHljJZLhhv_f/pages/_app.js": 0,
+      "static/WrDWQgqvIQHljJZLhhv_f/pages/_document.js": 1,
+      "static/WrDWQgqvIQHljJZLhhv_f/pages/_error.js": 2,
+      "static/WrDWQgqvIQHljJZLhhv_f/pages/home.js": 3,
+      "static/bPaUQSXSi9fTbO0jWFFIi/pages/_app.js": 4,
+      "static/bPaUQSXSi9fTbO0jWFFIi/pages/_document.js": 5,
+      "static/bPaUQSXSi9fTbO0jWFFIi/pages/_error.js": 6,
+      "static/bPaUQSXSi9fTbO0jWFFIi/pages/h/home.js": 7,
+      "static/bPaUQSXSi9fTbO0jWFFIi/pages/index.js": 8
+    },
+    "bySource": {},
+    "usedIds": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

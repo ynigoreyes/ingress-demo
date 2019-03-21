@@ -1,5 +1,5 @@
-svc1:
-	docker build --build-arg svc_name='svc1' -t miggylol/svc1:latest . && docker push miggylol/svc1
+home:
+	docker build --build-arg svc_name='home' -t miggylol/home:latest . && docker push miggylol/home
 
-svc2:
-	docker build --build-arg svc_name='svc2' -t miggylol/svc2:latest . && docker push miggylol/svc2
+about:
+	docker build --build-arg svc_name='about' -t miggylol/about:latest . && docker push miggylol/about

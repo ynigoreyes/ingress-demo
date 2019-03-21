@@ -1,12 +1,12 @@
 {
-  "name": "svc2",
+  "name": "about",
   "version": "1.0.0",
   "description": "about page",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -- -p $PORT"
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC",
