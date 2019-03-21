@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{RNiq:function(n,e,i){"use strict";i.r(e),e.default=function(){return"Home Index Page"}},vlRD:function(n,e,i){(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){var n=i("RNiq");return{page:n.default||n}}])}},[["vlRD",0]]]);
