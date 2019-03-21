@@ -1,0 +1,20 @@
+{
+  "name": "svc1",
+  "version": "1.0.0",
+  "description": "home page",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -- -p $SVC1_SERVICE_PORT"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "8.0.3",
+    "react": "16.8.3",
+    "react-dom": "16.8.3"
+  },
+  "engines": {
+    "node": "10"
+  }
+}

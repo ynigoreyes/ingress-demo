@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: gcp-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        backend:
+          serviceName: svc1
+          servicePort: 8080
+      - path: /about
+        backend:
+          serviceName: svc2
+          servicePort: 8081
